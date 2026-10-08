@@ -1,0 +1,16 @@
+    1  php -v
+    2  code-server --install-extension Natizyskunk.sftp --install-extension yzhang.markdown-all-in-one
+    3  code-server --install-extension Natizyskunk.sftp
+    4  mkdir ~/pieskovisko
+    5  cd ~/pieskovisko
+    6  mkdir -p projekt/css projekt/img
+    7  touch projekt/index.html poznamky.txt
+    8  ls -la
+    9  cp poznamky.txt poznamky_copy.txt
+   10  mv poznamky_copy.txt poznamky_renamed.txt
+   11  rm poznamky_renamed.txt
+   12  ls -la
+   13  vi ~/pieskovisko/o-mne.txt
+   14  echo -e "Viktoriia Marhitych\nWebova stranka pre cvicenia\nNaucila som sa pracovat s terminalom a SFTP" > ~/pieskovisko/o-mne.txt
+   15  cat ~/pieskovisko/o-mne.txt
+   16  history > ~/pieskovisko/historia.txt
